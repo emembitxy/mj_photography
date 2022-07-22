@@ -1,0 +1,271 @@
+body{
+    height: 100vh;
+    width: 50vh auto;
+}
+
+.indexheader{
+ 
+    height: 15vh;
+ background-color: rgb(73, 70, 70);
+}
+
+.indexmain{
+
+
+    padding: 50px;
+    margin: 0px;
+    width:50vh auto;
+    height: 70vh;
+    background-image:url(images/mj_2.jpg);
+    background-repeat: none;
+    background-position:top;
+    background-size:cover;
+    background-color: rgba(0, 0, 0, 0.55);
+
+}
+
+.indexnav{
+   
+    display: flex;
+    flex-direction:column;
+    gap: 3em;
+    justify-content: center;
+    align-items: center;
+ 
+}
+ .indexnav a{
+    
+
+  text-decoration: none;
+  border-style: double;
+  font-size: 20px;
+  color: aqua;
+
+  
+   
+}
+
+footer{
+    height: 15vh;
+    color: white;
+    background-color: rgb(73, 70, 70);
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.aboutusheader{
+    height: 15vh;
+    background-color: rgb(73, 70, 70);
+    width:1000px;
+    padding: 0px;
+    margin: 0px auto;
+}
+.aboutusmain{
+    font-family: 'Cormorant SC', serif;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    padding: 0px;
+    margin: 0px auto;
+    width:1000px;
+  
+    background-color: rgb(121, 97, 62);
+}
+
+
+.aboutus1{
+    
+    /* height: 50vh; */
+    margin: 0px;
+    padding: 20px;
+    /* box-shadow: -2px -2px 2px 2px  rgb(125, 125, 136),2px 2px 2px 2px rgb(51, 51, 61); */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    /* background-color: rgb(95, 65, 19); */
+    color: rgb(233, 211, 113);
+   
+}
+.aboutus1 p{
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    letter-spacing: 2px;
+   
+}
+
+.aboutusfigure{
+    width: 1000px;
+    display:flex;
+    flex-wrap: wrap;
+   /* align-items: center;
+   justify-items: center; */
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   
+}
+.aboutusfigure img{
+    width: 500px;
+    
+}
+
+.aboutusfigure1{
+    flex: display;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.aboutusfigure1 img{
+    width: 1000px;
+   
+  
+}
+.aboutusnav{
+    display: flex;
+    gap: 2em;
+    flex-direction: column;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    right: 2;
+}
+
+.aboutusnav a{
+    display: flex;
+    text-decoration: none;
+    font-size: 15px;
+    color: blanchedalmond;
+
+  
+   
+ 
+}
+.aboutusfooter{
+    height: 15vh;
+    color: white;
+    background-color: rgb(73, 70, 70);
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.gallerymain{
+    padding: 50px;
+    margin: 0px;
+    width:50vh auto;
+    height: 70vh;
+}
+
+.galleryheader{
+    height: 15vh;
+    background-color: rgb(73, 70, 70);
+    padding: 0px;
+   
+
+}
+
+
+.gallerynav a{
+    display: flex;
+    text-decoration: none;
+    font-size: 15px;
+    color: blanchedalmond;
+
+}
+.galleryfooter{
+    height: 15vh;
+    color: white;
+    background-color: rgb(73, 70, 70);
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.bookingheader{
+    height: 15vh;
+    background-color: rgb(73, 70, 70);
+    padding: 0px;
+   
+}
+.bookingmain{
+    font-family: 'Cormorant SC', serif;
+font-family: 'Edu TAS Beginner', cursive;
+font-family: 'Edu VIC WA NT Beginner', cursive;
+    padding: 50px;
+    margin: 0px;
+    width:50vh auto;
+    height: 120vh;
+    justify-items: center;
+    align-items: center;
+    background-image: url(images/mj_5.jpg);
+    background-repeat: none;
+    background-position:top;
+    background-size:cover;
+ 
+}
+.bookingmain p{
+    padding: 0;
+    margin: 3px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(187, 64, 64);
+   
+
+}
+.bookingnav a{
+    display: flex;
+    text-decoration: none;
+    font-size: 15px;
+    color: blanchedalmond;
+
+}
+input{
+    height: 25px;
+    
+}
+.inputbooking{
+    height: 45px;
+    width: 300px;
+}
+.bookingfooter{
+    height: 15vh;
+    color: white;
+    background-color: rgb(73, 70, 70);
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+button{
+    background-color: rgb(204, 69, 69);
+    color: antiquewhite;
+    display: flex;
+    margin: 10px;
+    font-size: 17px;
+    border-radius: 1cm;
+    padding: 6px;
+    box-shadow: -1px -1px 1px 1px grey ,1px 1px 1px 1px grey;
+ 
+
+}
+.presetsheader{
+    height: 15vh;
+    background-color: rgb(73, 70, 70);
+    padding: 0px;
+}
+.presetsmain{
+  padding: 50px;
+    margin: 0px;
+    width:50vh auto;
+    height: 100vh;
+}
+.youtubeheader{
+    height: 15vh;
+    background-color: rgb(73, 70, 70);
+    padding: 0px;
+}
+.youtubemain{
+    padding: 50px;
+    margin: 0px;
+    width:50vh auto;
+    height: 100vh;
+}
