@@ -16,11 +16,11 @@ body{
     margin: 0px;
     width:50vh auto;
     height: 70vh;
-    background-image:url(images/mj_2.jpg);
-    background-repeat: none;
-    background-position:top;
+    background-image:url(images/MJ_28.jpg);
+    background-repeat: no-repeat;
+    background-position:contain;
     background-size:cover;
-    background-color: rgba(0, 0, 0, 0.55);
+    background-color: rgb(73, 70, 70,);
 
 }
 
@@ -153,7 +153,9 @@ footer{
     margin: 0px;
     width:50vh auto;
     height: 70vh;
+    background-color: rgb(129, 121, 72);
 }
+
 
 .galleryheader{
     height: 15vh;
@@ -221,6 +223,8 @@ font-family: 'Edu VIC WA NT Beginner', cursive;
 }
 input{
     height: 25px;
+    color: white;
+    background-color: rgb(226, 215, 215);
     
 }
 .inputbooking{
@@ -269,3 +273,81 @@ button{
     width:50vh auto;
     height: 100vh;
 }
+.weddingheader{
+    height: 15vh;
+    background-color: rgb(73, 70, 70);
+    padding: 0px;
+}
+.weddingmain{
+    
+        padding: 50px;
+        margin: 0px;
+        width:50vh auto;
+        height: 350vh;
+        
+}
+.weddingmain img{
+    width: 200px;
+     margin: 0;
+   padding: 0;
+}
+.othermain{
+        padding: 50px;
+        margin: 0px;
+        width:50vh auto;
+        height: 350vh;
+}
+.othermain img{
+    width: 200px;
+    margin: 0;
+  padding: 0;
+}
+.otherheader{
+    height: 15vh;
+    background-color: rgb(73, 70, 70);
+    padding: 0px;
+}
+.weddingtag img{
+    width: 500px;
+    z-index: 1;
+}
+.othertag img{
+    width: 500px;
+    height: 450px;
+    z-index: 1;
+}
+.gallerymain{
+    display: flex;
+    flex-direction: wrap;
+}
+.weddingtag figcaption{
+    font-family: 'Cormorant SC', serif;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    text-align: center;
+     font-size: 2em;
+     text-transform: uppercase;
+     margin-top: -8em;
+     font-weight: 60px;
+   }
+   .weddingtag a{
+    text-decoration: none;
+    color: black;
+    font-weight:bolder;
+   }
+   .othertag figcaption{
+    font-family: 'Cormorant SC', serif;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    text-align: center;
+    font-size: 2em;
+    text-transform: uppercase;
+    margin-top: -8em;
+    font-weight: 60px;
+   }
+   .othertag a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+   }
+  
