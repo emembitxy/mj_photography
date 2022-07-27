@@ -28,9 +28,10 @@ body{
    
     display: flex;
     flex-direction:column;
-    gap: 3em;
+    gap: 4em;
     justify-content: center;
     align-items: center;
+    padding: 30px;
  
 }
  .indexnav a{
@@ -197,7 +198,7 @@ font-family: 'Edu VIC WA NT Beginner', cursive;
     height: 120vh;
     justify-items: center;
     align-items: center;
-    background-image: url(images/mj_5.jpg);
+    background-image: url(images/mj_4.jpg);
     background-repeat: none;
     background-position:top;
     background-size:cover;
@@ -210,7 +211,7 @@ font-family: 'Edu VIC WA NT Beginner', cursive;
     justify-items: center;
     align-items: center;
     text-align: center;
-    color: rgb(187, 64, 64);
+    color: rgb(10, 10, 10);
    
 
 }
@@ -223,7 +224,7 @@ font-family: 'Edu VIC WA NT Beginner', cursive;
 }
 input{
     height: 25px;
-    color: white;
+    color: rgb(199, 21, 21);
     background-color: rgb(226, 215, 215);
     
 }
@@ -240,7 +241,7 @@ input{
    align-items: center;
 }
 button{
-    background-color: rgb(204, 69, 69);
+    background-color: rgb(7, 7, 7);
     color: antiquewhite;
     display: flex;
     margin: 10px;
@@ -295,7 +296,7 @@ button{
         padding: 50px;
         margin: 0px;
         width:50vh auto;
-        height: 350vh;
+        height: 120vh;
 }
 .othermain img{
     width: 200px;
@@ -350,4 +351,18 @@ button{
     color: black;
     font-weight: bolder;
    }
-  
+
+   .upheader{
+    display: flex;
+    font-size: 15px;
+    gap: 1em;
+    justify-content: end;
+    justify-items: center;
+    padding-top: 50px;
+    padding-right: 20px;
+   }
+
+   .upheader a{
+    color: white;
+    text-decoration: none;
+   }
