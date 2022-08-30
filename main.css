@@ -280,28 +280,52 @@ button{
     padding: 0px;
 }
 .weddingmain{
-    
+        
         padding: 50px;
+        padding-top: 3px;
+        padding-bottom: 3px;
         margin: 0px;
         width:50vh auto;
-        height: 350vh;
+        height: 450vh;
         
 }
+.weddingcontainer{
+    column-count: 5;
+    column-gap: 3px;
+    
+}
 .weddingmain img{
-    width: 200px;
+    width: 100%;
      margin: 0;
    padding: 0;
+   
+   display: grid;
+   grid-template-rows: 1fr auto;
+   margin-bottom: 3px;
+   break-inside: avoid;
+  
+   
 }
 .othermain{
         padding: 50px;
+        padding-top: 2px;
+        padding-bottom: 2px;
         margin: 0px;
         width:50vh auto;
-        height: 120vh;
+        height: 140vh;
+}
+.othercontainer{
+    column-count: 5;
+    column-gap: 3px;
 }
 .othermain img{
-    width: 200px;
+    width: 100%;
     margin: 0;
   padding: 0;
+  display: grid;
+   grid-template-rows: 1fr auto;
+   margin-bottom: 3px;
+   break-inside: avoid;
 }
 .otherheader{
     height: 15vh;
