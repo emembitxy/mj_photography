@@ -23,6 +23,13 @@ body{
     background-color: rgb(73, 70, 70,);
 
 }
+.externalindex{
+    background-color: rgba(0, 0, 0, 0.55);
+    width:50vh auto;
+    height: 120vh;
+    padding: inherit;
+    margin: -50px;
+}
 
 .indexnav{
    
@@ -32,19 +39,24 @@ body{
     justify-content: center;
     align-items: center;
     padding: 30px;
+    /* border: 3px solid; */
  
 }
  .indexnav a{
     
 
   text-decoration: none;
-  border-style: double;
+  /* border: 3px solid; */
+ 
   font-size: 20px;
-  color: aqua;
-
+  color: rgba(244, 248, 250, 0.75);
   
    
 }
+.indexnav a:hover{
+    border: 3px solid;
+}
+
 
 footer{
     height: 15vh;
@@ -54,6 +66,7 @@ footer{
    justify-content: center;
    align-items: center;
 }
+
 .aboutusheader{
     height: 15vh;
     background-color: rgb(73, 70, 70);
@@ -103,6 +116,7 @@ footer{
    text-align: center;
    margin: 0;
    padding: 0;
+   
    
 }
 .aboutusfigure img{
@@ -190,15 +204,18 @@ footer{
 }
 .bookingmain{
     font-family: 'Cormorant SC', serif;
-font-family: 'Edu TAS Beginner', cursive;
-font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Oswald', sans-serif;
     padding: 50px;
     margin: 0px;
     width:50vh auto;
     height: 120vh;
     justify-items: center;
     align-items: center;
+    /* background-color: rgba(0, 0, 0, 0.22); */
     background-image: url(images/mj_4.jpg);
+   
     background-repeat: none;
     background-position:top;
     background-size:cover;
@@ -212,8 +229,17 @@ font-family: 'Edu VIC WA NT Beginner', cursive;
     align-items: center;
     text-align: center;
     color: rgb(10, 10, 10);
+    font-weight: bolder;
+   
    
 
+}
+.externalbook{
+    background-color: rgba(0, 0, 0, 0.22);
+    width:50vh auto;
+    height: 120vh;
+    padding: inherit;
+    margin: -50px;
 }
 .bookingnav a{
     display: flex;
@@ -390,3 +416,10 @@ button{
     color: white;
     text-decoration: none;
    }
+
+
+   /* media query */
+
+
+
+  

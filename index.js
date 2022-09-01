@@ -1,11 +1,15 @@
-const figureimage =document.querySelector(".aboutusfigure1")
-const background=["images/mj_1.jpg"]
-function updateimage(){
-    fetch(background)
-    .then((Response)=>Response.json())
-    .then((data)=>{
-        const figureimage=data.value
-    })
-    console.log(updateimage)
-}
+alert("welcome")
 
+const form= document.getElementById("form")
+const submit = document.getElementById("submit")
+
+function updateform(event){
+
+
+    submit.addEventListener("click",()=>{
+        
+    })
+    
+
+}
+updateform()
