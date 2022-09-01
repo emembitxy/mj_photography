@@ -70,7 +70,7 @@ footer{
 .aboutusheader{
     height: 15vh;
     background-color: rgb(73, 70, 70);
-    width:1000px;
+    width:50vh auto;
     padding: 0px;
     margin: 0px auto;
 }
@@ -79,7 +79,9 @@ footer{
     font-family: 'Edu VIC WA NT Beginner', cursive;
     padding: 0px;
     margin: 0px auto;
-    width:1000px;
+    width:50vh auto;
+    height: 70vh;
+   
   
     background-color: rgb(121, 97, 62);
 }
@@ -108,7 +110,7 @@ footer{
 }
 
 .aboutusfigure{
-    width: 1000px;
+    /* width: 1000px; */
     display:flex;
     flex-wrap: wrap;
    /* align-items: center;
@@ -120,8 +122,23 @@ footer{
    
 }
 .aboutusfigure img{
-    width: 500px;
+   
+    width: 100%;
+    margin: 0;
+  padding: 0;
+  
+  display: grid;
+  grid-template-rows: 1fr auto;
+  margin-bottom: 3px;
+  break-inside: avoid;
+  
+ 
     
+}
+.aboutcontainer{
+    column-count: 3;
+  column-gap: 3px;
+
 }
 
 .aboutusfigure1{
@@ -418,7 +435,350 @@ button{
    }
 
 
+
    /* media query */
+
+
+   @media screen and (max-width:480px) {
+    
+    
+footer{
+    height: 10vh;
+    color: white;
+    background-color: rgb(73, 70, 70);
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+   
+    .indexheader{
+     
+        height: 10vh;
+     background-color: rgb(73, 70, 70);
+    }
+    
+    .indexmain{
+    
+    
+        padding: 50px;
+        margin: 0px;
+        width:50vh auto;
+        height: 50vh;
+        background-image:url(images/MJ_28.jpg);
+        background-repeat: no-repeat;
+        background-position:contain;
+        background-size:cover;
+        background-color: rgb(73, 70, 70,);
+    
+    }
+    .externalindex{
+        background-color: rgba(0, 0, 0, 0.55);
+        width:50vh auto;
+        height: 50vh;
+        padding: inherit;
+        margin: -50px;
+    }
+    footer{
+        height: 10vh;
+        color: white;
+        background-color: rgb(73, 70, 70);
+        display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    
+.aboutusheader{
+    height: 10vh;
+    background-color: rgb(73, 70, 70);
+    width:50vh auto;
+    padding: 0px;
+    margin: 0px auto;
+    padding-right: -20px;
+}
+.aboutusmain{
+    font-family: 'Cormorant SC', serif;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    padding: 3px;
+    margin: 0px auto;
+    width:50vh auto;
+    height: 50vh;
+   
+  
+    background-color: rgb(121, 97, 62);
+}
+
+
+.aboutus1{
+    
+    height: 46vh;
+    margin: 0px;
+    padding: 15px;
+    /* box-shadow: -2px -2px 2px 2px  rgb(125, 125, 136),2px 2px 2px 2px rgb(51, 51, 61); */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    /* background-color: rgb(95, 65, 19); */
+    color: rgb(233, 211, 113);
+   
+}
+.aboutus1 p{
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    letter-spacing: 2px;
+    
+   
+}
+
+.aboutusfigure{
+    /* width: 1000px; */
+    display:flex;
+    flex-wrap: wrap;
+   /* align-items: center;
+   justify-items: center; */
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   
+   
+}
+.aboutusfigure img{
+   
+    width: 100%;
+    margin: 0;
+  padding: 0;
+  
+  display: grid;
+  grid-template-rows: 1fr auto;
+  margin-bottom: 3px;
+  break-inside: avoid;
+  
+ 
+    
+}
+.aboutcontainer{
+    column-count: 3;
+  column-gap: 3px;
+  height: 50vh;
+
+}
+
+.aboutusfigure1{
+    flex: display;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.aboutusfigure1 img{
+    width: 1000px;
+   
+  
+}
+.aboutusnav{
+    display: flex;
+    gap: 1em;
+    flex-direction: column;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    right: 2;
+}
+
+.aboutusnav a{
+    display: flex;
+    text-decoration: none;
+    font-size: 10px;
+    color: blanchedalmond;
+
+  
+   
+ 
+}
+.aboutusfooter{
+    height: 10vh;
+    color: white;
+    background-color: rgb(73, 70, 70);
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.gallerymain{
+    padding: 50px;
+    margin: 0px;
+    width:50vh auto;
+    height: 50vh;
+    background-color: rgb(129, 121, 72);
+    display: flex;
+    flex-direction: column;
+    gap: 6em;
+}
+
+
+.galleryheader{
+    height: 15vh;
+    width: 400px;
+    background-color: rgb(73, 70, 70);
+    padding: 0px;
+   
+
+}
+
+
+.gallerynav a{
+    display: flex;
+    text-decoration: none;
+    font-size: 15px;
+    color: blanchedalmond;
+
+}
+
+.galleryfooter{
+    height: 15vh;
+    color: white;
+    background-color: rgb(73, 70, 70);
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.weddingtag img{
+    width: 200px;
+    z-index: 1;
+}
+.weddingtag{
+    width: 100px ;
+    
+}
+.othertag{
+    width: 100px;
+}
+.othertag img{
+    width: 200px;
+    height: 200px;
+    z-index: 1;
+}
+
+.generalgallery{
+    height: 10vh;
+    width: 50vh auto;
+}
+.weddingtag figcaption{
+    font-family: 'Cormorant SC', serif;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    text-align: center;
+     font-size: 1.5em;
+     text-transform: uppercase;
+     margin-top: -4em;
+     font-weight: 60px;
+   }
+   .weddingtag a{
+    text-decoration: none;
+    color: black;
+    font-weight:bolder;
+   }
+   .othertag figcaption{
+    font-family: 'Cormorant SC', serif;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    text-align: center;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-top: -4em;
+    font-weight: 60px;
+   }
+   .othertag a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+   }
+   .weddingheader{
+    height: 15vh;
+    background-color: rgb(73, 70, 70);
+    padding: 0px;
+}
+.weddingmain{
+        
+        padding: 50px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        margin: 0px;
+        width:50vh auto;
+        height: 120vh;
+        
+}
+.weddingcontainer{
+    column-count: 4;
+    column-gap: 3px;
+    
+}
+.weddingmain img{
+    width: 100%;
+     margin: 0;
+   padding: 0;
+   
+   display: grid;
+   grid-template-rows: 1fr auto;
+   margin-bottom: 3px;
+   break-inside: avoid;
+  
+   
+}
+
+.othermain{
+    padding: 50px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin: 0px;
+    width:50vh auto;
+    height: 70vh;
+}
+.othercontainer{
+column-count: 3;
+column-gap: 3px;
+}
+.othermain img{
+width: 100%;
+margin: 0;
+padding: 0;
+display: grid;
+grid-template-rows: 1fr auto;
+margin-bottom: 3px;
+break-inside: avoid;
+}
+.otherheader{
+height: 10vh;
+background-color: rgb(73, 70, 70);
+padding: 0px;
+}
+
+.bookingheader{
+    height: 15vh;
+    background-color: rgb(73, 70, 70);
+    padding: 0px;
+   
+}
+.bookingmain{
+    font-family: 'Cormorant SC', serif;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Oswald', sans-serif;
+    padding: 50px;
+    margin: 0;
+    width:50vh auto;
+    height: 75vh;
+    justify-items: center;
+    align-items: center;
+    /* background-color: rgba(0, 0, 0, 0.22); */
+    background-image: url(images/mj_3.jpg);
+   
+    background-repeat: none;
+    background-position:top;
+    background-size:cover;
+ 
+}
+}
 
 
 
