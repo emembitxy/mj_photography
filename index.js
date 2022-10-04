@@ -1,15 +1,31 @@
 alert("welcome")
 
-const form= document.getElementById("form")
-const submit = document.getElementById("submit")
+const image = document.getElementById("image1")
 
-function updateform(event){
+const popup =document.getElementById("wedding_PopUp")
 
+// image.addEventListener("mouseleave",updateImage =>(){
 
-    submit.addEventListener("click",()=>{
-        
-    })
+// })
+
+function updateImage(){
     
+popup.append(image)
 
+
+image.style.width ="100%";
+image.style.height = "100%";
+
+
+console.log("clicked")
 }
-updateform()
+
+image.addEventListener("click",updateImage)
+
+
+
+
+
+  
+  
+  

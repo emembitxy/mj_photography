@@ -329,7 +329,9 @@ button{
         padding-bottom: 3px;
         margin: 0px;
         width:50vh auto;
-        height: 450vh;
+        height: 467vh;
+       
+
         
 }
 .weddingcontainer{
@@ -349,6 +351,13 @@ button{
   
    
 }
+.weddingcontainer a{
+    /* column-count: 5;
+    column-gap: 3px; */
+    display: flex;
+}
+
+
 .othermain{
         padding: 50px;
         padding-top: 2px;
