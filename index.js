@@ -1,26 +1,19 @@
 alert("welcome")
 
-const image = document.getElementById("image1")
 
-const popup =document.getElementById("wedding_PopUp")
+const backgrounds=["url('./images/MJ_27.jpg')","url('./images/MJ_19.jpg')","url('./images/MJ_28.jpg')"]
 
-// image.addEventListener("mouseleave",updateImage =>(){
-
-// })
-
-function updateImage(){
+let count=1
+setInterval(function() {
     
-popup.append(image)
+const image = document.querySelector(".indexmain")
 
+    image.style.backgroundImage=backgrounds[count % 3]
+    count++
+    
 
-image.style.width ="100%";
-image.style.height = "100%";
-
-
-console.log("clicked")
-}
-
-image.addEventListener("click",updateImage)
+}, 2000);
+ 
 
 
 
