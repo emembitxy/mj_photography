@@ -1,7 +1,7 @@
 alert("welcome")
 
 
-const backgrounds=["url('./images/MJ_27.jpg')","url('./images/MJ_19.jpg')","url('./images/MJ_28.jpg')"]
+const backgrounds=["url('./images/MJ_27.jpg')","url('./images/MJ_19.jpg')","url('./images/MJ_21.jpg')"]
 
 let count=1
 setInterval(function() {
@@ -13,7 +13,8 @@ const image = document.querySelector(".indexmain")
     
 
 }, 2000);
- 
+
+
 
 
 
