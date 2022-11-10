@@ -76,7 +76,10 @@ footer{
 }
 .aboutusmain{
     font-family: 'Cormorant SC', serif;
-    font-family: 'Edu VIC WA NT Beginner', cursive;
+font-family: 'Edu TAS Beginner', cursive;
+font-family: 'Edu VIC WA NT Beginner', cursive;
+font-family: 'Fragment Mono', monospace;
+font-family: 'Oswald', sans-serif;
     padding: 0px;
     margin: 0px auto;
     width:50vh auto;
@@ -214,6 +217,7 @@ footer{
     font-family: 'Cormorant SC', serif;
     font-family: 'Edu TAS Beginner', cursive;
     font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Fragment Mono', monospace;
     font-family: 'Oswald', sans-serif;
     padding: 50px;
     margin: 0px;
@@ -236,7 +240,7 @@ footer{
     display: flex;
     justify-items: center;
     align-items: center;
-    text-align: center;
+    /* text-align: center; */
     color: rgb(10, 10, 10);
     font-weight: bolder;
    
