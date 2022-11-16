@@ -73,6 +73,10 @@ footer{
     width:50vh auto;
     padding: 0px;
     margin: 0px auto;
+font-family: 'Edu VIC WA NT Beginner', cursive;
+font-family: 'Fragment Mono', monospace;
+font-family: 'Oswald', sans-serif;
+font-family: 'Sono', sans-serif;
 }
 .aboutusmain{
     font-family: 'Cormorant SC', serif;
@@ -80,6 +84,7 @@ font-family: 'Edu TAS Beginner', cursive;
 font-family: 'Edu VIC WA NT Beginner', cursive;
 font-family: 'Fragment Mono', monospace;
 font-family: 'Oswald', sans-serif;
+font-family: 'Sono', sans-serif;
     padding: 0px;
     margin: 0px auto;
     width:50vh auto;
@@ -95,7 +100,7 @@ font-family: 'Oswald', sans-serif;
     padding-top: 70px;
     margin: 0;
     font-size: 15px;
-    letter-spacing: 0.5px;
+    letter-spacing: 1.5px;
     line-height: 30px;
     display: flex;
    text-align: center;
@@ -214,11 +219,11 @@ font-family: 'Oswald', sans-serif;
    
 }
 .bookingmain{
-    font-family: 'Cormorant SC', serif;
-    font-family: 'Edu TAS Beginner', cursive;
-    font-family: 'Edu VIC WA NT Beginner', cursive;
-    font-family: 'Fragment Mono', monospace;
-    font-family: 'Oswald', sans-serif;
+
+font-family: 'Edu VIC WA NT Beginner', cursive;
+font-family: 'Fragment Mono', monospace;
+font-family: 'Oswald', sans-serif;
+font-family: 'Sono', sans-serif;
     padding: 50px;
     margin: 0px;
     width:50vh auto;
@@ -242,7 +247,8 @@ font-family: 'Oswald', sans-serif;
     align-items: center;
     /* text-align: center; */
     color: rgb(10, 10, 10);
-    font-weight: bolder;
+    font-weight: 10px;
+    letter-spacing: 2.5px;
    
    
 
@@ -506,10 +512,20 @@ footer{
     padding: 0px;
     margin: 0px auto;
     padding-right: -20px;
+font-family: 'Edu VIC WA NT Beginner', cursive;
+font-family: 'Fragment Mono', monospace;
+font-family: 'Oswald', sans-serif;
+font-family: 'Sono', sans-serif;
+
+
 }
 .aboutusmain{
     font-family: 'Cormorant SC', serif;
-    font-family: 'Edu VIC WA NT Beginner', cursive;
+font-family: 'Edu TAS Beginner', cursive;
+font-family: 'Edu VIC WA NT Beginner', cursive;
+font-family: 'Fragment Mono', monospace;
+font-family: 'Oswald', sans-serif;
+font-family: 'Sono', sans-serif;
     padding: 3px;
     margin: 0px auto;
     width:50vh auto;
@@ -540,7 +556,7 @@ footer{
     padding-top: 30px;
     margin: 0;
     font-size: 15px;
-    letter-spacing: 0.5px;
+    letter-spacing: 1.5px;
     line-height: 30px;
     display: flex;
    text-align: center;
@@ -786,10 +802,11 @@ padding: 0px;
    
 }
 .bookingmain{
-    font-family: 'Cormorant SC', serif;
-    font-family: 'Edu TAS Beginner', cursive;
-    font-family: 'Edu VIC WA NT Beginner', cursive;
-    font-family: 'Oswald', sans-serif;
+
+font-family: 'Edu VIC WA NT Beginner', cursive;
+font-family: 'Fragment Mono', monospace;
+font-family: 'Oswald', sans-serif;
+font-family: 'Sono', sans-serif;
     padding: 50px;
     margin: 0;
     width:50vh auto;
